@@ -1,8 +1,9 @@
 use Mix.Config
 
 config :advent_of_code, AdventOfCode.Input,
-  # allow_network?: true,
-  session_cookie: System.get_env("ADVENT_OF_CODE_SESSION_COOKIE")
+  allow_network?: true,
+  session_cookie:
+    "53616c7465645f5f0329634be7025eeb2ff4ba6b88b4198c9479c88218a67cdd166397c4afd9b683a6eb5ea8045b0596"
 
 # If you don't like environment variables, put your cookie in
 # a `config/secrets.exs` file like this:
